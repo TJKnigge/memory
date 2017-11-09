@@ -39,7 +39,7 @@
             echo"<tr>";
             for($y = 1; $y < 5; $y++) {
                 $id= $x.$y;
-            echo "<td><img id=foto$id src=panda.jpg onclick=knop($id)></td>\n";
+            echo "<td><img id=foto$id src=panda.jpg width='100' height='75' onclick=knop($id)></td>\n";
             }
             echo "</tr>\n";
         }
