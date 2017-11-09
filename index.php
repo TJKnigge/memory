@@ -20,7 +20,7 @@
     padding: 5px 5px;
     width: 50px;
     height: 50px;
-    
+    center
 }
     
     </style>
@@ -32,6 +32,8 @@
     
     
     <body>
+        
+        <p align='center'>
         <table border="1">
         <?php
         
@@ -46,6 +48,7 @@
 
         ?>
         </table>
+        </p>
     </body>
     
     
