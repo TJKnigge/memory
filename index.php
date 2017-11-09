@@ -1,17 +1,39 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Memory</title>
     </head>
+    
+    
+    <script>
+    
+    
+    
+    </script>
+    
+    
     <body>
         <?php
-        // put your code here
+        
+        for($x = 1; $x < 11; $x++) {
+            
+            echo"<br>";
+            for($y = 1; $y < 11; $y++) {
+           
+                $id= $x.$y;
+        
+       
+        
+            echo "<input onclick=schieten($id) type=button id=knop$id>";
+        
+            }
+        }
+        
+        
+        
         ?>
     </body>
+    
+    
 </html>
