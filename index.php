@@ -5,8 +5,8 @@
         <title>Memory</title>
     
         <script>
-        function schieten(a){
-            document.getElementById("knop"+a).src = 'panda.jpg';
+        function knop(a){
+            document.getElementById("foto" +a). src = 'panda.jpg';
             alert(a);
         }
         </script>
@@ -18,8 +18,8 @@
     border: none;
     color: red;
     padding: 5px 5px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     
 }
     
@@ -39,14 +39,13 @@
             echo"<tr>";
             for($y = 1; $y < 5; $y++) {
                 $id= $x.$y;
-            echo "<td><img id=$id src=panda.jpg onclick=knop($id)</td>";
+            echo "<td><img id=foto$id src=panda.jpg onclick=knop($id)></td>\n";
             }
-            echo "</tr>";
+            echo "</tr>\n";
         }
-        
-        
-        
+
         ?>
+        </table>
     </body>
     
     
