@@ -7,7 +7,31 @@
         <script>
         function knop(a){
             document.getElementById("foto" +a). src = 'panda.jpg';
-            alert(a);
+         
+         
+         //<?php
+//         
+//         (moeten gaan werken met een switch en function;
+//         dit om plaatjes te selecteren en te combineren en gelijken zichtbaar te maken
+//         dus if 11 en 20  gelijk dan laten zien)
+//         
+//         selecteer("nrpl1, nrpl2");
+//         
+//         function selecteer($pl1, $pl2){
+//             
+//         return ($pl1, $pl2);
+//         }
+//         
+//         switch (plaatje){
+//             case"":
+//             
+//                 braek;
+//             
+//         }
+//         
+//         
+//         ?>
+          
         }
         </script>
         
