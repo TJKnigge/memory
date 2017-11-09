@@ -20,7 +20,6 @@
     padding: 5px 5px;
     width: 50px;
     height: 50px;
-    center
 }
     
     </style>
